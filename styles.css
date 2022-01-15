@@ -252,3 +252,37 @@ footer p{
    
   
 }
+@media (max-width: 480px){
+    
+   .page-links{
+       display : none;}
+   .bar-icon{
+       display : visible;}
+   .cart-icon{
+       display : visible;}
+   .nav{
+     flex-direction : column;}
+   
+   main,footer{
+       display : none;}
+   
+   .section-one{
+       flex-direction : column;
+       align-items: center;}
+   
+    .grid-card{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 30px;}
+   
+
+
+.grid-logo{
+   display: grid;
+   grid-template-columns:repeat(4,1fr);
+   padding: 30px 110px;}
+   
+   
+     
+
+}
